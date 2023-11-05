@@ -1,0 +1,182 @@
+.alllll {
+    background-color: var(--avThird);
+    height: 100vh;
+    width: 100%;
+    padding: 200px 50px 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alllll .one {
+    width: 40%;
+    margin-left: 100px;
+    text-align: start;
+}
+.alllll .one .btns-one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.alllll .one .btns-one button {
+    margin-left: 30px;
+}
+.buttonactive {
+    background-color: transparent;
+}
+.alllll .one .one1 {
+    display: none;
+}
+.alllll .one .oneactive {
+    display: block;
+}
+.alllll .one .oneactive p {
+    color: var(--avFirst);
+}
+.alllll .one .two2 {
+    display: none;
+}
+.alllll .one .twoactive {
+    width: 100%;
+    height: auto;
+}
+.alllll .one .twoactive .carddd p {
+    padding: 20px 30px;
+    background-color: var(--avFirst);
+    border-right: 20px solid var(--avSecond);
+    border-radius: 40px;
+    font-size: 20px;
+    color: var(--avThird);
+    transition: 0.3s ease;
+    cursor: default;
+}
+.alllll .one .twoactive .carddd p:hover {
+    background-color: var(--avSecond);
+}
+.alllll .one .twoactive .carddd p i {
+    font-size: 25px;
+    color: var(--avFourth);
+    margin-left: 15px;
+}
+.alllll .two {
+    width: 500px;
+    height: auto;
+}
+.alllll .two h1 {
+    font-size: 50px;
+}
+.alllll .two .header {
+    display: none;
+}
+.alllll .two .headeractive {
+    display: block;
+}
+.alllll .two img {
+    width: 500px;
+    height: auto;
+}
+.alllll .two .image {
+    display: none;
+}
+.alllll .two .imageactive {
+    display: block;
+}
+/*small*/
+@media (min-width: 168px) {
+    .alllll {
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+    }
+    .alllll .one {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+    }
+    .alllll .one .twoactive .carddd p {
+        font-size: 10px;
+    }
+    .alllll .one .p {
+        height: 500px;
+        overflow: scroll;
+    }
+    .alllll .two {
+        display: none;
+    }
+    .alllll .two .imageactive {
+        display: none;
+    }
+    .alllll .two .headeractive {
+        display: none;
+    }
+    .alllll .two .header {
+        display: none;
+    }
+    .alllll .two img {
+        display: none;
+    }
+}
+/*mediam*/
+@media (min-width: 686px) {
+    .alllll {
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+    }
+    .alllll .one {
+        width: 80%;
+        text-align: center;
+        margin: 0;
+    }
+    .alllll .one .twoactive .carddd p {
+        font-size: 10px;
+    }
+    .alllll .one .p {
+        height: 500px;
+        overflow: scroll;
+    }
+    .alllll .two {
+        display: none;
+    }
+    .alllll .two .imageactive {
+        display: none;
+    }
+    .alllll .two .headeractive {
+        display: none;
+    }
+    .alllll .two .header {
+        display: none;
+    }
+    .alllll .two img {
+        display: none;
+    }
+}
+/*large*/
+@media (min-width: 1200px) {
+    .alllll {
+        flex-direction: row;
+        padding: 200px 50px 100px 50px;
+    }
+    .alllll .one {
+        width: 40%;
+        text-align: start;
+        margin-left: 100px;
+    }
+    .alllll .one .twoactive .carddd p {
+        font-size: 20px;
+    }
+    .alllll .one .p {
+        height: auto;
+        overflow: auto;
+    }
+    .alllll .two {
+        display: block;
+    }
+    .alllll .two .imageactive {
+        display: block;
+    }
+    .alllll .two .headeractive {
+        display: block;
+    }
+    .alllll .two img {
+        display: block;
+    }
+}

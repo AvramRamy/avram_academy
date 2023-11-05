@@ -1,0 +1,8 @@
+.vero77 {
+    padding: 100px 50px;
+    background-color: var(--avFirst);
+}
+.vero77 h1 {
+    color: var(--avThird);
+    margin-bottom: 30px;
+}

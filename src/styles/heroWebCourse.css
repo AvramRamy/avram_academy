@@ -1,0 +1,131 @@
+.v {
+    background-color: var(--avThird);
+    padding: 130px 50px 200px 50px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+}
+.v .content22 h1 {
+    color: var(--avFirst);
+    margin-bottom: 20px;
+}
+.v .content22 p {
+    color: var(--avFirst);
+    margin: 10px 0px;
+}
+.v .content22 p i {
+    color: var(--avSecond);
+    margin-left: 10px;
+}
+.v .content22 button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.v .v2 {
+    border: 1px solid var(--avSecond);
+    padding: 20px;
+}
+.v .v2 .buttons .button {
+    margin-left: 10px;
+}
+.v .v2 .buttons .buttonactive {
+    background-color: transparent;
+}
+.v .v2 .all-online {
+    margin-top: 10px;
+    display: none;
+}
+.v .v2 .all-online-active {
+    display: block;
+    margin-top: 10px;
+}
+.v .v2 .all-online-active h4 {
+    color: var(--avFirst);
+}
+.v .v2 .all-online-active p {
+    color: var(--avSecond);
+}
+.v .v2 .all-ofline {
+    margin-top: 10px;
+    display: none;
+}
+.v .v2 .all-ofline-active {
+    margin-top: 10px;
+    display: block;
+}
+.v .v2 .all-ofline-active h4 {
+    color: var(--avFirst);
+}
+.v .v2 .all-ofline-active p {
+    color: var(--avSecond);
+}
+.form23 {
+    position: fixed;
+    right: 100%;
+    transition: 0.5s ease;
+}
+.form24 {
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% , -50%);
+    background-color: var(--avFourth);
+    padding: 50px;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.form24 i {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.form24 h3 {
+    color: var(--avFirst);
+    margin-bottom: 20px;
+}
+.input55 {
+    width: 100%;
+    outline: none;
+    padding: 12px 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--avSecond);
+    color: var(--avSecond);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.input55::placeholder {
+    color: var(--avSecond);
+    font-size: 30px;
+}
+/*small*/
+@media (min-width: 168px) {
+    .v {
+        flex-direction: column;
+    }
+    .form24 {
+        width: 350px;
+    }
+}
+/*mediam*/
+@media (min-width: 686px) {
+    .v {
+        flex-direction: row;
+    }
+    .form24 {
+        width: 450px;
+    }
+}
+/*large*/
+@media (min-width: 1200px) {
+    .v {
+        flex-direction: row;
+    }
+    .form24 {
+        width: 500px;
+    }
+}

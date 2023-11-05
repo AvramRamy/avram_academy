@@ -1,0 +1,52 @@
+.all55 {
+    padding: 100px 50px;
+    background-color: rgba(234, 228, 228, 0.893);
+}
+.all55 h1 {
+    color: var(--avThird);
+    margin-bottom: 50px;
+}
+.all55 .avram-all66 {
+    text-align: start;
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(2 , 500px);
+    justify-content: space-around;
+}
+.all55 .avram-all66 .avram-card66 {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.all55 .avram-all66 .avram-card66 i {
+    color: var(--avSecond);
+    margin-left: 10px;
+}
+.all55 .avram-all66 .avram-card66 h3 {
+    color: var(--avThird);
+    margin-bottom: 10px;
+}
+.all55 .avram-all66 .avram-card66 p {
+    color: var(--avFourth);
+    font-size: 15px;
+}
+/*small*/
+@media (min-width: 168px) {
+    .all55 .avram-all66 {
+        text-align: center;
+        grid-template-columns: repeat(1 , 350px);
+    }
+}
+/*mediam*/
+@media (min-width: 686px) {
+    .all55 .avram-all66 {
+        text-align: center;
+        grid-template-columns: repeat(1 , 500px);
+    }
+}
+/*large*/
+@media (min-width: 1200px) {
+    .all55 .avram-all66 {
+        text-align: start;
+        grid-template-columns: repeat(2 , 500px);
+    }
+}

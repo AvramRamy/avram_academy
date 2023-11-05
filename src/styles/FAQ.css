@@ -1,0 +1,54 @@
+.all00 {
+    padding: 100px 50px;
+    background-color: var(--avFirst);
+}
+.all00 h1 {
+    color: var(--avThird);
+}
+.all00 .all11 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.all00 .all11 .card00 {
+    width: 80%;
+    height: 100px;
+    overflow: hidden;
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--avSecond);
+    transition: 0.7s ease;
+}
+.all00 .all11 .card00Active {
+    width: 80%;
+    max-height: 1000px;
+    overflow: hidden;
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--avSecond);
+    transition: 0.7s ease;
+}
+.all00 .all11 h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+/*small*/
+@media (min-width: 168px) {
+    .all00 .all11 h3 {
+        font-size: 10px;
+    }
+}
+/*mediam*/
+@media (min-width: 686px) {
+    .all00 .all11 h3 {
+        font-size: 15px;
+    }
+}
+/*large*/
+@media (min-width: 1200px) {
+    .all00 .all11 h3 {
+        font-size: 19px;
+    }
+}

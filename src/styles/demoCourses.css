@@ -1,0 +1,127 @@
+/* .avram1 {
+    margin: 0;
+    padding: 100px 0;
+    position: relative;
+    background-color: var(--avFirst);
+}
+.avram1 .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 40px;
+    place-items: center;
+}
+.avram1 .container .box {
+    text-align: center;
+    border: 1px solid var(--avThird);
+    width: 300px;
+}
+.avram1 .container .box .img-holder {
+    
+}
+.avram1 .container .box .img-holder img {
+    position: static;
+    max-width: 100%;
+    width: 10px;
+    height: 10px;
+} */
+/* demoCourses.css */
+* {
+    text-decoration: none;
+}
+
+.avram1 {
+    text-align: center;
+    padding: 100px 0;
+    margin: 0;
+    background-color: var(--avThird);
+}
+
+.header {
+    font-size: 2rem;
+    color: var(--avFirst);
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.box {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--avFirst);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: default;
+}
+
+.image-holder {
+    margin-bottom: 20px;
+}
+
+.image-holder img {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+button .link {
+    color: var(--avFirst);
+    transition: .3s ease;
+}
+
+button {
+    background-color: var(--avSecond);
+    color: var(--avFirst);
+    border: 1px solid var(--avSecond);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+button:hover {
+    background: transparent;
+}
+button:hover .link {
+    color: var(--avSecond);
+}
+
+/*small*/
+@media (min-width: 168px) {
+    .box {
+        width: 350px;
+    }
+}
+/*mediam*/
+@media (min-width: 686px) {
+    .box {
+        width: 450px;
+    }
+}
+/*large*/
+@media (min-width: 1200px) {
+    .box {
+        width: 300px;
+    }
+}

@@ -1,0 +1,82 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.hero .video {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.097), rgba(0, 0, 0, 0.12));
+}
+.hero video {
+    background-blend-mode: darken;
+    height: 100vh;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.hero h1 {
+    font-size: 2.5rem;
+    color: var(--avThird);
+    font-weight: 900;
+}
+.content button {
+    padding: 15px;
+    font-size: 2rem;
+    background-color: var(--avSecond);
+    cursor: pointer;
+    border: 1px solid var(--avSecond);
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+.content button .Link {
+    text-decoration: none;
+    color: var(--avFourth);
+    transition: .3s ease;
+}
+.content button:hover {
+    background-color: transparent;
+}
+.content button:hover .Link {
+    color: var(--avSecond);
+}
+
+/*small*/
+@media (min-width: 168px) {
+    .hero h1 {
+        font-size: 1.8rem;
+        color: var(--avThird);
+        font-weight: 900;
+    }
+    .content button {
+        font-size: 1.3rem;
+    }
+}
+/*mediam*/
+@media (min-width: 992px) {
+    .hero h1 {
+        font-size: 2rem;
+        color: var(--avThird);
+        font-weight: 900;
+    }
+    .content button {
+        font-size: 1.8rem;
+    }
+}
+/*large*/
+@media (min-width: 1200px) {
+    .hero h1 {
+        font-size: 2.5rem;
+        color: var(--avThird);
+        font-weight: 900;
+    }
+    .content button {
+        font-size: 2rem;
+    }
+}

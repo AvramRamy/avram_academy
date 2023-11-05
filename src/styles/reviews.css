@@ -1,0 +1,74 @@
+.main {
+    background-color: var(--avThird);
+    margin: 0;
+    padding: 100px 100px 10px 100px ;
+}
+.main h1 {
+    font-size: 2rem;
+    color: var(--avFirst);
+    text-align: center;
+}
+.avram {
+    height: 500px;
+    position: relative;
+}
+.vero {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50% ,-60%);
+}
+.vero img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.vero h2 {
+    color: var(--avFirst);
+    margin-top: 20px;
+}
+.vero p {
+    font-size: 20px;
+    color: var(--avSecond);
+}
+/*small*/
+@media (min-width: 168px) {
+    .main {
+    padding: 100px 0px 10px 0px ;
+    }
+    .vero {
+        width: 300px;
+        transform: translate(50% ,-70%);
+    }
+    .vero p {
+        font-size: 15px;
+    }
+}
+/*mediam*/
+@media (min-width: 686px) {
+    .main {
+        padding: 100px 150px 10px 150px ;
+        }
+        .vero {
+            width: 400px;
+            transform: translate(50% ,-65%);
+        }
+        .vero p {
+            font-size: 17px;
+        }
+}
+/*large*/
+@media (min-width: 1200px) {
+    .main {
+        padding: 100px 300px 10px 300px ;
+        }
+        .vero {
+            width: 500px;
+            transform: translate(50% ,-60%);
+        }
+        .vero p {
+            font-size: 20px;
+        }
+}

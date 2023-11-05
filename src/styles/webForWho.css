@@ -1,0 +1,58 @@
+.avram77 {
+    padding: 100px 50px;
+    background-color: var(--avThird);
+}
+.avram77 h1 {
+    color: var(--avFirst);
+    margin-bottom: 50px;
+}
+.avram66 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avram88 {
+    text-align: start;
+    color: var(--avFirst);
+}
+.avram88 li {
+    margin-bottom: 10px;
+}
+.avram99 img {
+    width: 469px;
+    height: 335px;
+    margin-right: 100px;
+}
+/*small*/
+@media (min-width: 168px) {
+    .avram66 {
+        flex-direction: column;
+    }
+    .avram99 img {
+        width: 350px;
+        height: 290px;
+        margin-right: 0px;
+    }
+}
+/*mediam*/
+@media (min-width: 686px) {
+    .avram66 {
+        flex-direction: column;
+    }
+    .avram99 img {
+        width: 469px;
+        height: 335px;
+        margin-right: 0px;
+    }
+}
+/*large*/
+@media (min-width: 1200px) {
+    .avram66 {
+        flex-direction: row;
+    }
+    .avram99 img {
+        width: 469px;
+        height: 335px;
+        margin-right: 100px;
+    }
+}

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NavbarItemsAvram {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px 0 rgba(0 ,0 ,0 ,.25);
+    width: 95%;
+    height: 80px;
+    border-radius: 13px;
+    margin-top: 15px;
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: var(--avFirst);
+    z-index: 99;
+}
+.Navbar-logo {
+    color: var(--avFourth);
+    font-size: 2rem;
+    cursor: pointer;
+}
+span {
+    color: var(--avSecond);
+}
+.Nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+.Nav-links {
+    text-decoration: none;
+    color: var(--avFourth);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+    border-radius: 10px;
+    transition: .3s ease
+}
+.Nav-links i {
+    padding-left: 10px;
+}
+.Nav-links:hover {
+    background-color: var(--avSecond);
+    color: var(--avFirst);
+}
+.menu-icons {
+    display: none;
+}
+@media screen and (max-width: 1080px){
+    .NavbarItemsAvram {
+        z-index: 99;
+    }
+    .Nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: var(--avFirst);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        opacity: 0;
+        align-items: center;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        transition: .5s ease;
+    }
+    .Nav-menu.active {
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+    .Nav-links {
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+        width: 300px;
+    }
+    .Nav-links:hover {
+        background-color: var(--avSecond);
+        color: var(--avFirst);
+    }
+    .menu-icons {
+        display: block;
+    }
+    .menu-icons i {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .Navbar-logo {
+        color: var(--avFourth);
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+}

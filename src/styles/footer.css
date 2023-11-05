@@ -1,0 +1,110 @@
+.avero {
+    margin: 0;
+    padding: 70px 100px 70px 50px;
+    width: 100%;
+    height: auto;
+    background: url(../assets/background.jpg);
+    background-attachment: fixed;
+}
+.avero .al {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.avero .al .al3 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+h2 {
+    color: var(--avFirst);
+}
+.avero .al .al3 p {
+    color: var(--avSecond);
+    font-size: 20px;
+    text-align: start;
+}
+.avero .al .al3 .form6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.avero .al .al3 .form6 input {
+    height: 55px;
+    margin-left: 10px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--avSecond);
+    outline: none;
+}
+.avero .al .al3 .form6 input::placeholder {
+    font-size: 30px;
+    color: var(--avSecond);
+}
+.avero .al2 {
+    display: grid;
+    grid-template-columns: repeat(2 , 190px);
+    gap: 0px;
+}
+.avero .al2 .Links9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.avero .al2 .Links9 .Linkv i {
+    font-size: 20px;
+    color: var(--avSecond);
+    margin-left: 15px;
+}
+.avero .al2 .Links9 .Linkv span {
+    color: var(--avFirst);
+}
+.avero .al2 .Links9 p {
+    font-size: 10px;
+    color: var(--avFirst);
+}
+.avero .al2 .Links9 p i {
+    color: var(--avSecond);
+    margin-left: 15px;
+}
+/*small*/
+@media (min-width: 168px) {
+    .avero .al {
+        flex-direction: column;
+    }
+    .avero .al .al3 {
+        width: 300px;
+    }
+    .avero {
+        padding: 70px 20px 70px 20px;
+    }
+}
+/*mediam*/
+@media (min-width: 686px) {
+    .avero .al {
+        flex-direction: row;
+    }
+    .avero .al .al3 {
+        width: 400px;
+    }
+    .avero {
+        padding: 70px 100px 70px 50px;
+    }
+}
+/*large*/
+@media (min-width: 1200px) {
+    .avero .al {
+        flex-direction: row;
+    }
+    .avero .al .al3 {
+        width: 500px;
+    }
+    .avero {
+        padding: 70px 100px 70px 50px;
+    }
+}
