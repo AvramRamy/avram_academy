@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
+        <Route path="/avram_academy" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/about" element={<About />} />
