@@ -51,6 +51,10 @@ span {
     background-color: var(--avSecond);
     color: var(--avFirst);
 }
+.Nav-links.active {
+    background-color: var(--avSecond);
+    color: var(--avFirst);
+}
 .menu-icons {
     display: none;
 }

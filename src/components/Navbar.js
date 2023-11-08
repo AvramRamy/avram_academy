@@ -1,6 +1,6 @@
 import '../styles/NavbarStyles.css';
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { MenuItems } from './Menu-Items';
 // import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -25,10 +25,10 @@ class Navbar extends Component {
                 {MenuItems.map((item, index) => {
                     return(
                         <li key={index}>
-                        <Link to={item.url} className={item.cName}>
+                        <NavLink to={item.url} className={item.cName}>
                         <i className={item.icon}></i>
                         {item.title}
-                        </Link>
+                        </NavLink>
                         </li>
                     )
                 })}
