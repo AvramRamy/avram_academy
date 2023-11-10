@@ -17,12 +17,12 @@ function App() {
       <Routes>
         <Route path="/avram_academy" element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/web-course" element={<WebCourses />} />
-        <Route path="/cybersecurity-course" element={<CyberSecurity />} />
-        <Route path="/mobile-course" element={<Mobile />} />
+        <Route path="/avram_academy/courses" element={<Courses />} />
+        <Route path="/avram_academy/about" element={<About />} />
+        <Route path="/avram_academy/contact" element={<Contact />} />
+        <Route path="/avram_academy/web-course" element={<WebCourses />} />
+        <Route path="/avram_academy/cybersecurity-course" element={<CyberSecurity />} />
+        <Route path="/avram_academy/mobile-course" element={<Mobile />} />
       </Routes>
     </div>
   );

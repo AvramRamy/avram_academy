@@ -12,7 +12,7 @@ function Hero() {
             </div>
             <div className='content'>
                 <h1>الاكاديمية رقم واحد فى مصر لتعلم البرمجة</h1>
-                <button><Link to='/courses' className='Link'>أستكشاف الدورات</Link></button>
+                <button><Link to='/avram_academy/courses' className='Link'>أستكشاف الدورات</Link></button>
             </div>
         </div>
         </>

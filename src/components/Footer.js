@@ -23,16 +23,16 @@ function Footer() {
                 <div className='al2'>
                     <div className='Links9'>
                         <h2>روابط هامة</h2>
-                        <Link to='/'>الرئيسية</Link>
-                        <Link to='/courses'>دوراتنا</Link>
-                        <Link to='/about'>من نحن</Link>
-                        <Link to='/contact'>تواصل معنا</Link>
+                        <Link to='/avram_academy/'>الرئيسية</Link>
+                        <Link to='/avram_academy/courses'>دوراتنا</Link>
+                        <Link to='/avram_academy/about'>من نحن</Link>
+                        <Link to='/avram_academy/contact'>تواصل معنا</Link>
                     </div>
                     <div className='Links9'>
                         <h2>الدورات</h2>
-                        <Link to='/web-course'>برمجة المواقع</Link>
-                        <Link to='/cybersecurity-course'>الامن السيبرانى</Link>
-                        <Link to='/mobile-course'>برمجة التطبيقات</Link>
+                        <Link to='/avram_academy/web-course'>برمجة المواقع</Link>
+                        <Link to='/avram_academy/cybersecurity-course'>الامن السيبرانى</Link>
+                        <Link to='/avram_academy/mobile-course'>برمجة التطبيقات</Link>
                     </div>
                     <div className='Links9'>
                         <h2>تواصل معنا</h2>

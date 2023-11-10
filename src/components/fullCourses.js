@@ -10,37 +10,37 @@ import { Fade } from 'react-reveal';
 function Full() {
     const Data = [
         {
-            url : '/cybersecurity-course',
+            url : '/avram_academy/cybersecurity-course',
             img : cyberSecurity,
             h2 : 'الأمن السيبرانى',
             p : 'نجيب عن أسئلتك واستفساراتك عبر فريق من المدربين المختصين على مدار الساعة'
         },
         {
-            url : '/web-course',
+            url : '/avram_academy/web-course',
             img : web,
             h2 : 'برمجة المواقع',
             p : 'نجيب عن أسئلتك واستفساراتك عبر فريق من المدربين المختصين على مدار الساعة'
         },
         {
-            url : '/mobile-course',
+            url : '/avram_academy/mobile-course',
             img : mobile,
             h2 : 'برمجة التطبيقات',
             p : 'نجيب عن أسئلتك واستفساراتك عبر فريق من المدربين المختصين على مدار الساعة'
         },
         {
-            url : '/cybersecurity-course',
+            url : '/avram_academy/cybersecurity-course',
             img : cyberSecurity,
             h2 : 'الأمن السيبرانى',
             p : 'نجيب عن أسئلتك واستفساراتك عبر فريق من المدربين المختصين على مدار الساعة'
         },
         {
-            url : '/web-course',
+            url : '/avram_academy/web-course',
             img : web,
             h2 : 'برمجة المواقع',
             p : 'نجيب عن أسئلتك واستفساراتك عبر فريق من المدربين المختصين على مدار الساعة'
         },
         {
-            url : '/mobile-course',
+            url : '/avram_academy/mobile-course',
             img : mobile,
             h2 : 'برمجة التطبيقات',
             p : 'نجيب عن أسئلتك واستفساراتك عبر فريق من المدربين المختصين على مدار الساعة'
