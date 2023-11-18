@@ -70,9 +70,13 @@
     border-radius: 8px;
 }
 
+.box h2 {
+    color: #000000;
+}
+
 h2 {
     font-size: 20px;
-    color: #333;
+    color: #333333;
     margin-bottom: 10px;
 }
 
