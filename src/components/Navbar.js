@@ -13,7 +13,7 @@ class Navbar extends Component {
     render () {
     return (
         <nav className='NavbarItemsAvram'>
-            <Link to='/'>
+            <Link to='/avram_academy'>
                 <h1 className='Navbar-logo'>اكاديمية <span>أفرام</span></h1>
             </Link>
             <div className='menu-icons' onClick={this.handleClick}>
