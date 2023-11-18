@@ -8,12 +8,14 @@ import Contact from './roots/Contact';
 import WebCourses from './roots/WebCourse';
 import CyberSecurity from './roots/CyberSecurity';
 import Mobile from './roots/Mobile';
+import ScrollToTop from './components/scrollToTop';
 // import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Routes>
         <Route path="/avram_academy" element={<Home />} />
         <Route path="/" element={<Home />} />
