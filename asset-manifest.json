@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/avram_academy/static/css/main.7570161c.css",
+    "main.css": "/avram_academy/static/css/main.5ba07205.css",
     "main.js": "/avram_academy/static/js/main.bc550228.js",
     "static/js/787.455cad98.chunk.js": "/avram_academy/static/js/787.455cad98.chunk.js",
     "static/media/heroSectionVideo1.mp4": "/avram_academy/static/media/heroSectionVideo1.9d1f2511b201fd07fd96.mp4",
@@ -33,12 +33,12 @@
     "static/media/project.png": "/avram_academy/static/media/project.069d5f1dd33719553a82.png",
     "static/media/investment-Money.png": "/avram_academy/static/media/investment-Money.cb2139aa605b80723181.png",
     "index.html": "/avram_academy/index.html",
-    "main.7570161c.css.map": "/avram_academy/static/css/main.7570161c.css.map",
+    "main.5ba07205.css.map": "/avram_academy/static/css/main.5ba07205.css.map",
     "main.bc550228.js.map": "/avram_academy/static/js/main.bc550228.js.map",
     "787.455cad98.chunk.js.map": "/avram_academy/static/js/787.455cad98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7570161c.css",
+    "static/css/main.5ba07205.css",
     "static/js/main.bc550228.js"
   ]
 }
